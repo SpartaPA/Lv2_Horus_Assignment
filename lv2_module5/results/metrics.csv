@@ -1,0 +1,1 @@
+run_id,kp,config_file,target_distance_m,resolution,repeat_no,fps,detection_rate_pct,background_fp,rmse_ex,valid_tracking_ratio_pct,recovery_success_pct,recovery_time_s,notes

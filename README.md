@@ -1,17 +1,32 @@
 # Lv2_Horus_Assignment
 
-| 이름 | 역할 | 담당 범위 |
-|---|---|---|
-| [송정혁](https://github.com/cowsjh) | **팀장**·테크리드 + 검증·문서화 | 시험 조건·측정·그래프·결과 해석, 저장소·PR 운영, 최종 병합·제출 |
-| [한지훈](https://github.com/polarnight1212) | 제어 | 모터 연결, 오차→명령, 속도·각도 제한, 정지 |
-| [정조은](https://github.com/<id>) | 인지 | 카메라 입력, HSV·Contour, 미검출 처리, 검출 증거 |
-| [이창엽](https://github.com/developlcy-oss) | 통합 | ROS2 인터페이스, 상태 전환·명령 알고리즘, bag 기록·재생 |
+팀명: **Horus**
 
+| 이름 | GitHub ID | 역할 |
+|---|---|---|
+| 송정혁 | [@cowsjh](https://github.com/cowsjh) | **팀장**·테크리드 + 검증·문서화 |
+| 한지훈 | [@polarnight1212](https://github.com/polarnight1212) | 제어 |
+| 정조은 | [@jejeong5976](https://github.com/jejeong5976) | 인지 |
+| 이창엽 | [@developlcy-oss](https://github.com/developlcy-oss) | 통합 |
+
+역할별 담당 범위와 기여 증빙: [lv2_module5/team.md](lv2_module5/team.md)
+
+## 프로젝트
+
+**[lv2_module5/](lv2_module5/)** — 구현 코드, 설정, 측정 결과, 보고서
+
+| 문서 | 내용 |
+|---|---|
+| [실행 가이드](lv2_module5/README.md) | 환경·장비·버전, 설치·빌드·업로드·실행·중지·재현 명령, 결과 위치 |
+| [보고서](lv2_module5/report.md) | 문제 1~5의 구현·설정·증거·측정 결과·해석·한계 |
+| [협업 기록](lv2_module5/team.md) | 4인 역할·기여, Issue·PR·리뷰, 권한·보호 설정 |
+| [발표 자료](lv2_module5/presentation.md) | 5분 시연 순서와 핵심 결과 |
+| [기여 규약](CONTRIBUTING.md) | 브랜치·커밋·PR·리뷰 규칙 |
 
 
 ## 제출 전 체크리스트
 
-- [ ]  팀 저장소에 팀명·팀장·팀원 3명의 이름과 계정이 있습니다.
+- [x]  팀 저장소에 팀명·팀장·팀원 3명의 이름과 계정이 있습니다.
 - [ ]  main 보호 설정 또는 적용 불가 사유·운영 규칙을 기록했습니다.
 - [ ]  4인 모두 본인 PR 병합 1건 이상과 다른 PR 리뷰 1건 이상을 남겼습니다.
 - [ ]  팀장 본인의 PR도 다른 팀원이 승인했습니다.
