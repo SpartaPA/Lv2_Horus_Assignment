@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | 송정혁 / [@cowsjh](https://github.com/cowsjh) | 팀장 · 테크리드 + 검증 · 문서화 | | | | |
 | 한지훈 / [@polarnight1212](https://github.com/polarnight1212) | 제어 | | | | |
-| 정조은 / [@&lt;id&gt;](https://github.com/) | 인지 | | | | |
+| 정조은 / [@jejeong5976](https://github.com/jejeong5976) | 인지 | | | | |
 | 이창엽 / [@developlcy-oss](https://github.com/developlcy-oss) | 통합 | | | | |
 
 **전원 필수**: 본인 PR 1건 이상 병합 + 타인 PR에 구체적인 리뷰 1건 이상. 팀장도 포함.
@@ -71,26 +71,17 @@
 | 팀원 | Write · 작업 브랜치 push · PR 작성 · 리뷰 |
 | 조직 관리자 | 정책상 필요한 생성 · 권한 · 보호 설정 지원 |
 
-### main branch protection
+### main 브랜치 보호
 
-| 규칙 | 적용 | 비고 |
-|---|---|---|
-| Require a pull request before merging | ☐ | |
-| Require approvals (1 이상, 작성자 아닌 사람) | ☐ | |
-| Dismiss stale approvals when new commits are pushed | ☐ | |
-| Require conversation resolution before merging | ☐ | |
-| Restrict who can push to matching branches (팀장만) | ☐ | 작업 브랜치는 제외 |
-| Do not allow bypassing the above settings | ☐ | |
-| force push 금지 | ☐ | |
-| main 삭제 금지 | ☐ | |
+- main에 병합하기 전에 반드시 PR을 거친다.
+- 작성자가 아닌 사람의 승인을 1개 이상 받아야 한다.
+- 새 커밋을 push하면 이전 승인을 무효로 하고 다시 검토받는다.
+- 병합 전에 리뷰 대화를 모두 해결해야 한다.
+- main 갱신 권한을 팀장으로 제한한다. 작업 브랜치는 제한에서 제외한다.
+- 위 규칙을 팀장도 우회할 수 없게 한다.
+- force push를 금지한다.
+- main 삭제를 금지한다.
 
-설정 화면 캡처: `../results/images/<TBD>`
-
-**적용 불가 항목과 사유** (공개 범위 · 요금제 · 조직 정책):
-
-- 없음 / <항목과 사유, 대신 지킬 운영 규칙>
-
-기술적으로 차단했다고 적지 않는다. 임의로 공개 전환하거나 요금제를 바꾸지 않는다.
 
 ### 보호 규칙 검증 기록
 
